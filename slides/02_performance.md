@@ -1,3 +1,50 @@
+## Warum ist Web Performance wichtig?
+
+--
+
+# Wegen des Users
+
+--
+
+Responsezeit | UX
+--|--
+< 100ms | UI fühlt sich **instant** an
+< 1 sec | Verzögerung wird wahrgenommen.
+> 10 sec| Gedanken des Benutzers sind schon wo anders. Er fühlt sich nicht mehr im Griff zu haben, was der Computer (die Webseite) macht.
+
+
+> [Jakob Nielsen: Website Response Times](http://www.nngroup.com/articles/website-response-times/)
+
+--
+
+### Genervte User sind verlorene User
+<!-- .slide: data-background="assets/3645211083_4695ec1de4_o.jpg" -->
+<div class="attribution">Photo: [flickr/Robert Couse-Baker](https://www.flickr.com/photos/29233640@N07/3645211083/)</div>
+
+--
+
+# Wegen dem Geld <!-- .element: class="dark-shadow" -->
+
+<!-- .slide: data-background="assets/7027584837_77ac774e41_k.jpg" -->
+<div class="attribution">Photo: [flickr/Tax Credits](https://www.flickr.com/photos/76657755@N04/7027584837/)</div>
+
+--
+
+### Beispiele
+- Amazon (100ms Verbesserung = 1% mehr Revenue)
+- Mozilla (-2,2 Sek. = 60M mehr Firefox Downloads)
+- Yahoo (400ms Verbesserung = 9% mehr Traffic)
+- Walmart
+- AOL
+
+--
+
+# SEO-Effekt
+
+<img src="assets/google-mobile-slow-label-1424870455.png">
+
+--
+
 # Latenz<br>vs.<br>Bandbreite
 
 --
@@ -17,3 +64,8 @@ London    |  1.000km |   6ms |   9ms
 New York  |  6.500km |  43ms |  65ms
 Shanghai  |  9.000km |  60ms |  90ms
 Sidney    | 16.000km | 106ms | 160ms
+
+--
+
+# Performance budget
+

@@ -24,3 +24,13 @@ Agenda:
     - 60 fps
     - will-change CSS-Property
     - Service Worker
+
+Tools:
+- Webpagetest.org
+- Google Page Speed Insights
+- Dev-Tools
+- Grunt, Gulp
+- Assemble, Metalsmith
+- Webpack
+- Lib-Sass
+- 
