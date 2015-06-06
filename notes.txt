@@ -1,0 +1,23 @@
+- Intro
+- Warum ist Performance wichtig?
+    - 
+- Was können JS-Entwickler für gute Performance tun?
+    - Wie wird Performance gemessen?
+    - Server schnell machen
+    - CDN vs. nicht CDN?
+        - 6 parallelle Requests
+        - 
+    - Tricks und Tools
+        - Weniger, kleiner Cookies verwenden
+        - Bloat reduzieren
+        - Font loading
+        - 3rd party (GA)
+        
+        - Vanilla JS
+        - Grunt, Gulp
+        - Webpack, browserify
+        - UglifyJS
+- Konklusion
+
+
+- 

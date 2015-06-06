@@ -1,0 +1,51 @@
+h1, p, div {
+    text-shadow: 1px 1px 2px rgba(127, 127, 127, .55) !important;
+}
+
+h1.dark-shadow {
+    text-shadow: 0 0 12px #000 !important;
+}
+
+.attribution.attribution.attribution.attribution {
+    position: absolute;
+    bottom: -20%;
+    right: 0;
+    font-size: .5em;
+}
+
+.bgvid.bgvid.bgvid.bgvid.bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+blockquote {
+    font-style: normal !important;
+    text-align: left;
+    padding: 2rem !important;
+}
+
+blockquote strong {
+    text-decoration: underline;
+}
+
+blockquote footer {
+    display: block;
+    font-size: 70% !important;
+    line-height: 1.42857;
+    //color: #ccc;
+    text-align: right;
+}
+
+blockquote footer:before {
+    content: "— ";
+}
