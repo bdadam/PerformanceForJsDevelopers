@@ -31,6 +31,17 @@
 
 # SVG
 
+- Markup Format
+- Textbasiert
+- Gut komprimierbar
+- Animation, Styling
+
+--
+
+# grunticon
+- de facto Standard
+- SVGs mit Fallbacks für ältere Browser 
+
 --
 
 # Animierte GIFs
