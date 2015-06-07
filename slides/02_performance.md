@@ -9,11 +9,14 @@
 Responsezeit | UX
 --|--
 < 100ms | UI fühlt sich **instant** an
-< 1 sec | Verzögerung wird wahrgenommen.
+< 1 sec | Verzögerung wird wahrgenommen, der Benutzer wird aber noch nicht verloren.
 > 10 sec| Gedanken des Benutzers sind schon wo anders. Er fühlt sich nicht mehr im Griff zu haben, was der Computer (die Webseite) macht.
 
 
 > [Jakob Nielsen: Website Response Times](http://www.nngroup.com/articles/website-response-times/)
+
+Note:
+Nielsan hat die Studie zweimal durchgef-hrt, in 1997 und in 2010. Die Ergebnisse waren trotydem sehr ähnlich.
 
 --
 
@@ -34,7 +37,7 @@ Responsezeit | UX
 - Amazon (100ms Verbesserung = 1% mehr Revenue)
 - Mozilla (-2,2 Sek. = 60M mehr Firefox Downloads)
 - Yahoo (400ms Verbesserung = 9% mehr Traffic)
-- Walmart
+- Walmart (1 Sek. = 2% Conversion; 100ms = 1% incr. Revenue, SEO Vorteile)
 - AOL
 
 --
@@ -64,8 +67,3 @@ London    |  1.000km |   6ms |   9ms
 New York  |  6.500km |  43ms |  65ms
 Shanghai  |  9.000km |  60ms |  90ms
 Sidney    | 16.000km | 106ms | 160ms
-
---
-
-# Performance budget
-

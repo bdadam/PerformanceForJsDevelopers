@@ -28,7 +28,12 @@
     <div class="reveal">
         <div class="slides">
             <section data-markdown="slides/01_intro.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            
             <section data-markdown="slides/02_performance.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            
+            <section data-markdown="slides/03_fight.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+
+            <section data-markdown="slides/04_3rdparty.md" data-separator="^---$" data-separator-vertical="^--$"></section>
 
         </div>
     </div>
@@ -52,6 +57,17 @@
                 { src: 'revealjs/plugin/math/math.js', async: true }
             ]
         });
+
+        Reveal.addEventListener('ready', fixScriptTagsInCode);
+        Reveal.addEventListener('slidechanged', fixScriptTagsInCode);
+        setTimeout(fixScriptTagsInCode, 2000);
+
+        function fixScriptTagsInCode(event) {
+            var spans = document.querySelectorAll('span.javascript');
+            for (var i = 0, l = spans.length; i < l; i++) {
+                spans[i].innerHTML = spans[i].innerHTML.replace(/\&amp;lt;/g, '<');
+            }
+        }
     </script>
 </body>
 </html>
