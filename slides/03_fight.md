@@ -3,6 +3,12 @@
 
 --
 
+<img src="assets/httparchive.org-2015-05-15/avg-bytes-per-page-by-content-type.png">
+
+> <footer>[httparchive.org 15. Mai 2015](http://httparchive.org/interesting.php?a=All&l=May%2015%202015&s=Top1000)</footer>
+
+--
+
 - Weniger Requests
 - Kleinere Requests
 - Weniger DNS-Lookups

@@ -28,13 +28,15 @@
     <div class="reveal">
         <div class="slides">
             <section data-markdown="slides/01_intro.md" data-separator="^---$" data-separator-vertical="^--$"></section>
-            
             <section data-markdown="slides/02_performance.md" data-separator="^---$" data-separator-vertical="^--$"></section>
-            
             <section data-markdown="slides/03_fight.md" data-separator="^---$" data-separator-vertical="^--$"></section>
-
-            <section data-markdown="slides/04_3rdparty.md" data-separator="^---$" data-separator-vertical="^--$"></section>
-
+            <section data-markdown="slides/04_images.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/05_css.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/06_js.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/06_js_3rdparty.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/07_fonts.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/08_html.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/09_outro.md" data-separator="^---$" data-separator-vertical="^--$"></section>
         </div>
     </div>
     <script src="revealjs/lib/js/head.min.js"></script>
@@ -65,7 +67,7 @@
         function fixScriptTagsInCode(event) {
             var spans = document.querySelectorAll('span.javascript');
             for (var i = 0, l = spans.length; i < l; i++) {
-                spans[i].innerHTML = spans[i].innerHTML.replace(/\&amp;lt;/g, '<');
+                spans[i].innerHTML = spans[i].innerHTML.replace(/\&lt;/g, '<').replace(/\&amp;lt;/g, '<');
             }
         }
     </script>

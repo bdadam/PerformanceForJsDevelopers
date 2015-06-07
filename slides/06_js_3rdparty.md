@@ -87,13 +87,16 @@ if (document.readyState === 'complete') {
 
 --
 
-# Strategie #1
+# Strategie #2
+
+Asynchrone Scripts, wo es möglich ist
 
 ```HTML
 <script src="tracking-analytics-pixel-wow.js" async>&lt;/script>
 ```
 
+
+
 --
 
-# Startegie #3
-
+sfsdf

@@ -16,7 +16,7 @@ Responsezeit | UX
 > [Jakob Nielsen: Website Response Times](http://www.nngroup.com/articles/website-response-times/)
 
 Note:
-Nielsan hat die Studie zweimal durchgef-hrt, in 1997 und in 2010. Die Ergebnisse waren trotydem sehr ähnlich.
+Nielsan hat die Studie zweimal durchgeführt, in 1997 und in 2010. Die Ergebnisse waren beide Mal sehr ähnlich.
 
 --
 
@@ -37,14 +37,14 @@ Nielsan hat die Studie zweimal durchgef-hrt, in 1997 und in 2010. Die Ergebnisse
 - Amazon (100ms Verbesserung = 1% mehr Revenue)
 - Mozilla (-2,2 Sek. = 60M mehr Firefox Downloads)
 - Yahoo (400ms Verbesserung = 9% mehr Traffic)
-- Walmart (1 Sek. = 2% Conversion; 100ms = 1% incr. Revenue, SEO Vorteile)
-- AOL
+- Walmart (1 Sek. = 2% Conversion; 100ms = 1% mehr Revenue, SEO Vorteile)
+- AOL, ShopZilla, Etsy, uvm.
 
 --
 
 # SEO-Effekt
 
-<img src="assets/google-mobile-slow-label-1424870455.png">
+<img src="assets/google-slow-label-mobile.png">
 
 --
 
