@@ -67,3 +67,10 @@ London    |  1.000km |   6ms |   9ms
 New York  |  6.500km |  43ms |  65ms
 Shanghai  |  9.000km |  60ms |  90ms
 Sidney    | 16.000km | 106ms | 160ms
+
+--
+
+# Performance messen
+
+- webpagetest.org
+- Google Page Speed Insights
