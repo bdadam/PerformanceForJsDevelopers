@@ -95,8 +95,3 @@ Asynchrone Scripts, wo es möglich ist
 <script src="tracking-analytics-pixel-wow.js" async>&lt;/script>
 ```
 
-
-
---
-
-sfsdf
