@@ -9,14 +9,21 @@
 
 --
 
-- Weniger Requests
-- Kleinere Requests
-- Weniger DNS-Lookups
-- Weniger HTTP-Redirects
+<img src="assets/httparchive.org-2015-05-15/total-req-per-page.png">
+
+> <footer>[httparchive.org 15. Mai 2015](http://httparchive.org/interesting.php?a=All&l=May%2015%202015&s=Top1000)</footer>
+
+Note:
+72% der Webseiten starten mehr als 50 Requests beim Laden!
 
 --
 
-# Weniger Requests<br>Requests sind teuer
+# Vorgehensweise
+
+- Anzahl der Requests reduzieren
+- Datenmenge reduzieren, Requests schnell verarbeiten
+- Weniger DNS-Lookups
+- Weniger HTTP-Redirects
 
 --
 
@@ -26,13 +33,10 @@
 
 --
 
-# Leichtere Requests
-
---
-
 # Minification
 
 - grunt-contrib-cssmin
 - grunt-contrib-uglify
 - grunt-contrib-htmlmin
 
+--

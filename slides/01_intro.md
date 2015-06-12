@@ -10,3 +10,9 @@ Adam Beres-Deak
 
 [bdadam.com](http://bdadam.com) [@bdadamm](https://twitter.com/bdadamm/)
 
+
+Note:
+- Wer minifiziert CSS und JS?
+- Gzipping?
+- Wer kümmert sich um die richtige Caching-Header?
+- Wer schaut täglich darauf, wie gut seine Seite performt?

@@ -72,5 +72,26 @@ Sidney    | 16.000km | 106ms | 160ms
 
 # Performance messen
 
-- webpagetest.org
-- Google Page Speed Insights
+--
+
+# webpagetest.org
+
+--
+
+<img src="assets/wpt.jpg">
+
+--
+
+<img src="assets/wpt_goal.jpg">
+
+--
+
+# Google Page Speed Insights
+
+--
+
+<img src="assets/gpsi.jpg">
+
+--
+
+<img src="assets/GPSI_goal.jpg">

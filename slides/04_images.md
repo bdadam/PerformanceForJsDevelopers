@@ -39,8 +39,11 @@
 --
 
 # grunticon
+
+<img src="assets/grunticon.jpg">
+
 - de facto Standard
-- SVGs mit Fallbacks für ältere Browser 
+- SVGs mit Fallbacks für ältere Browser
 
 --
 
