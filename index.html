@@ -37,14 +37,14 @@
             <section data-markdown="slides/07_fonts.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/08_html.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/09_prefetch.md" data-separator="^---$" data-separator-vertical="^--$"></section>
-            <section data-markdown="slides/09_outro.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/10_outro.md" data-separator="^---$" data-separator-vertical="^--$"></section>
         </div>
     </div>
     <script src="revealjs/lib/js/head.min.js"></script>
     <script src="revealjs/js/reveal.js"></script>
     <script>
         Reveal.initialize({
-            controls: true,
+            controls: false,
             progress: true,
             history: true,
             center: true,
@@ -60,17 +60,6 @@
                 { src: 'revealjs/plugin/math/math.js', async: true }
             ]
         });
-
-        Reveal.addEventListener('ready', fixScriptTagsInCode);
-        Reveal.addEventListener('slidechanged', fixScriptTagsInCode);
-        setTimeout(fixScriptTagsInCode, 2000);
-
-        function fixScriptTagsInCode(event) {
-            var spans = document.querySelectorAll('span.javascript');
-            for (var i = 0, l = spans.length; i < l; i++) {
-                spans[i].innerHTML = spans[i].innerHTML.replace(/\&lt;/g, '<').replace(/\&amp;lt;/g, '<');
-            }
-        }
     </script>
 </body>
 </html>
