@@ -1,14 +1,15 @@
-# Vorgehensweise
-
-- Anzahl der Requests reduzieren
-- Datenmenge reduzieren, Requests schnell verarbeiten
-- Weniger DNS-Lookups
-- Weniger HTTP-Redirects
+<!-- .slide: data-background="assets/5727299176_59317dbeb5_o.jpg" -->
+<div class="attribution">Bild: [flickr/hikingartist](https://www.flickr.com/photos/hikingartist/5727299176/)</div>
 
 --
 
-<!-- .slide: data-background="assets/5727299176_59317dbeb5_o.jpg" -->
-<div class="attribution">Bild: [flickr/hikingartist](https://www.flickr.com/photos/hikingartist/5727299176/)</div>
+# Vorgehensweise
+
+- Requests schnell verarbeiten
+- Anzahl der Requests reduzieren
+- Datenmenge reduzieren
+- Weniger DNS-Lookups
+- Weniger HTTP-Redirects
 
 --
 
