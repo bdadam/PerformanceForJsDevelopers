@@ -29,6 +29,9 @@
         <div class="slides">
             <section data-markdown="slides/01_intro.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/02_performance.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/03_measure.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+
+            
             <section data-markdown="slides/03_fight.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/04_images.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/05_css.md" data-separator="^---$" data-separator-vertical="^--$"></section>
@@ -44,7 +47,16 @@
     <script src="revealjs/js/reveal.js"></script>
     <script>
         Reveal.initialize({
-            controls: true,
+            width: 1024,
+            height: 768,
+            // Factor of the display size that should remain empty around the content
+            margin: 0.1,
+            // Bounds for smallest/largest possible scale to apply to content
+            minScale: 0.2,
+            maxScale: 1.5,
+
+
+            controls: false,
             progress: true,
             history: true,
             center: true,
@@ -57,7 +69,7 @@
                 { src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                 { src: 'revealjs/plugin/zoom-js/zoom.js', async: true },
                 { src: 'revealjs/plugin/notes/notes.js', async: true },
-                { src: 'revealjs/plugin/math/math.js', async: true }
+                //{ src: 'revealjs/plugin/math/math.js', async: true }
             ]
         });
 

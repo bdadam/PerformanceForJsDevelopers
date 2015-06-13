@@ -47,7 +47,7 @@
 
 --
 
-# 16% Ersparnis bei diesem kleinen Beispiel
+# 16% Ersparnis bei diesem Beispiel
 
 --
 

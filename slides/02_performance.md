@@ -9,8 +9,8 @@
 Responsezeit | UX
 --|--
 < 100ms | UI fühlt sich **instant** an
-< 1 sec | Verzögerung wird wahrgenommen, der Benutzer wird aber noch nicht verloren.
-> 10 sec| Gedanken des Benutzers sind schon wo anders. Er fühlt sich nicht mehr im Griff zu haben, was der Computer (die Webseite) macht.
+< 1 sec | Verzögerung wird wahrgenommen, der Benutzer wird aber noch nicht verloren
+> 10 sec| Gedanken des Benutzers sind schon wo anders. Er fühlt sich nicht mehr im Griff zu haben, was der Computer (die Webseite) macht
 
 
 > [Jakob Nielsen: Website Response Times](http://www.nngroup.com/articles/website-response-times/)
@@ -44,54 +44,58 @@ Nielsan hat die Studie zweimal durchgeführt, in 1997 und in 2010. Die Ergebniss
 
 # SEO-Effekt
 
-<img src="assets/google-slow-label-mobile.png">
+<img data-src="assets/google-slow-label-mobile.png">
 
 --
 
-# Latenz<br>vs.<br>Bandbreite
+# Bandbreite<br>vs.<br>Latenz
+
+Note:
+man würde denken, dass eine fette Internetleitung alles löst, aber das ist eben nicht der Fall
 
 --
 
-<img src="assets/Latency_vs_bandwidth.png">
+<img data-src="assets/Latency_vs_bandwidth.png">
 > <footer>[Ilya Grigorik](https://docs.google.com/presentation/d/1r7QXGYOLCh4fcUq0jDdDwKJWNqWK1o4xMtYpKZCJYjM/present#slide=id.g518e3c87f_2_0)</footer>
 
 --
 
-Lichtgeschwindigkeit = $3 \* 10^5 km/s = 300000km/s$
+Lichtgeschwindigkeit = 300 000 km/s
 
 ***
 
-Stadt | Entf. von München | RTT Vakuum | RTT Glasfaser
+Stadt | Entf. von München | RTT Vakuum | RTT Glasfaser*
 --|--:|--:|--:
 London    |  1.000km |   6ms |   9ms
 New York  |  6.500km |  43ms |  65ms
 Shanghai  |  9.000km |  60ms |  90ms
 Sidney    | 16.000km | 106ms | 160ms
 
---
-
-# Performance messen
+<p style="text-align: right;">\* Optimalwerte</p>
 
 --
 
-# webpagetest.org
+### Requests sind teuer
+
+- TCP: Handshake, Slow-Start
+- auf Desktop-Geräten ist Latenz eher das Problem
+- auf Mobile sind sowohl Latenz als auch Bandbreite
 
 --
 
-<img src="assets/wpt.jpg">
+<img src="assets/httparchive.org-2015-05-15/js-req-per-page.png">
+
+> 68% der untersuchten Webseiten starten mehr als 10 JavaScript-Requests <footer>[httparchive.org 15. Mai 2015](http://httparchive.org/interesting.php?a=All&l=May%2015%202015&s=Top1000)</footer>
 
 --
 
-<img src="assets/wpt_goal.jpg">
+<img src="assets/httparchive.org-2015-05-15/js-transfer-size.png">
+
+> 66% der untersuchten Webseiten laden mehr als 300KB JavaScript <footer>[httparchive.org 15. Mai 2015](http://httparchive.org/interesting.php?a=All&l=May%2015%202015&s=Top1000)</footer>
 
 --
 
-# Google Page Speed Insights
+# Ziel
 
---
-
-<img src="assets/gpsi.jpg">
-
---
-
-<img src="assets/GPSI_goal.jpg">
+- Anzahl von Requests auf Minimum halten
+- Übertragene Daten auf Minimum halten

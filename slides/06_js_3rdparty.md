@@ -69,7 +69,7 @@ Note:
 
 --
 
-# Startegie #1
+# Strategie #1
 
 ```JavaScript
 function loadLeftovers() {
@@ -91,7 +91,25 @@ if (document.readyState === 'complete') {
 
 Asynchrone Scripts, wo es möglich ist
 
-```HTML
-<script src="tracking-analytics-pixel-wow.js" async>&lt;/script>
-```
+<pre><code class="lang-html">&#x3C;script src=&#x22;tracking-analytics-pixel-wow.js&#x22; async&#x3E;&#x3C;/script&#x3E;</code></pre>
 
+--
+
+# Google Analytics
+
+--
+
+<img data-src="assets/psi-99.png">
+
+--
+
+## Google Analytics Measurement Protocol
+
+```JS
+new Image().src = '//www.google-analytics.com/collect?' +
+'v=1&tid=UA-123456-1' + // tracker id
+'&t=pageview' + // hit type
+'&dp=%2FpageA' + // page url
+'&cid=CLIENT_ID' + // some client id
+'&z=' + +new Date();
+```

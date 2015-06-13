@@ -21,9 +21,9 @@ Note:
 # Vorgehensweise
 
 - Anzahl der Requests reduzieren
-- Datenmenge reduzieren, Requests schnell verarbeiten
+- Größe der Requests reduzieren
 - Weniger DNS-Lookups
-- Weniger HTTP-Redirects
+- Weniger bzw. keine HTTP-Redirects
 
 --
 

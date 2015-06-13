@@ -19,14 +19,17 @@ section {
 
 .attribution {
     position: absolute !important;
-    bottom: -0.6em !important;
-    right: -100px !important;
+    bottom: -1.5em !important;
+    right: 0 !important;
     font-size: 0.6em !important;
-    opacity: 0.75 !important;
+    opacity: 0.6 !important;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 2px 8px !important;
+    border-radius: 4px;
 }
 
 .attribution a {
-    color: #ccc !important;
+    color: #fff !important;
     text-shadow: 0 0 12px rgba(0, 0, 0, 0.5) !important;
 }
 
