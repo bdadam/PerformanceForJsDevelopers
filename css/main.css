@@ -22,6 +22,10 @@ section {
     text-shadow: 0 0 12px #000 !important;
 }
 
+.darkerbg {
+    background-color: rgba(0, 0, 0, .3) !important;
+}
+
 .attribution {
     position: absolute !important;
     bottom: -1.48em !important;

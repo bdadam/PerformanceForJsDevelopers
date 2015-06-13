@@ -1,5 +1,4 @@
 <!-- .slide: data-background="assets/8165338356_ba4056817d_k.jpg" -->
-
 <div class="attribution">[flickr/swinney92](https://www.flickr.com/photos/swinney92/8165338356/)</div>
 
 # Von 0 auf 100 in einer Sekunde
@@ -18,6 +17,9 @@ Note:
 - Wer schaut täglich darauf, wie gut seine Seite performt?
 
 --
+
+<!-- .slide: data-background="assets/4595040044_c2034753ba_o.jpg" class="darkerbg" -->
+<div class="attribution">[flickr/maticevic](https://www.flickr.com/photos/maticevic/4595040044/)</div>
 
 ## Agenda
 
