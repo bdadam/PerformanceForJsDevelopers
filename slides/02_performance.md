@@ -1,3 +1,12 @@
+### Performance optimieren
+
+> Auf die Leistung kommt es an.
+Stellen Sie den Nutzern Ihre Inhalte so schnell wie möglich zur Verfügung.
+Gestalten Sie die Seiteninteraktion und das Rendering innerhalb Ihrer Anwendung möglichst flüssig.
+<footer>[Google Web Fundamentals](https://developers.google.com/web/fundamentals/performance/?hl=de)</footer>
+
+--
+
 ## Warum ist Web Performance wichtig?
 
 --
@@ -72,6 +81,11 @@ Shanghai  |  9.000km |  60ms |  90ms
 Sidney    | 16.000km | 106ms | 160ms
 
 <p style="text-align: right;">\* Optimalwerte</p>
+
+"Last Mile" Latency: laut FCC in den USA gibt es ca. 17-44ms Latency nur zwischen User und sein ISP
+
+Note:
+Auf Mobile kann es noch schlimmer sein, 150-400ms
 
 --
 

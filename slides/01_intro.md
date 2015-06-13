@@ -22,8 +22,7 @@ Note:
 ## Agenda
 
 1. Überblick
-1. Vorgehensweise
-1. HTML
-1. Bilder
-1. CSS
+1. Tools, not rules!
 1. JavaScript
+
+1. TODO
