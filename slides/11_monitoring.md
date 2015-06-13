@@ -2,12 +2,20 @@
 
 --
 
-### SpeedCurve
+### Google Page Speed Insights (grunt-pagespeed)
 
-<img src="assets/speedcurve.png">
+<img src="assets/grunt-psi-ok.png">
 
 --
 
-### Catchpoint
+<img src="assets/grunt-psi-fail.png">
 
-// TODO: screenshot
+--
+
+### Webpagetest.org (grunt-perfbudget)
+
+--
+
+### SpeedCurve
+
+<img src="assets/speedcurve.png">
