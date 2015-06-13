@@ -16,3 +16,14 @@ Note:
 - Gzipping?
 - Wer kümmert sich um die richtige Caching-Header?
 - Wer schaut täglich darauf, wie gut seine Seite performt?
+
+--
+
+## Agenda
+
+1. Überblick
+1. Vorgehensweise
+1. HTML
+1. Bilder
+1. CSS
+1. JavaScript

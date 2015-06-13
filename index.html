@@ -33,14 +33,16 @@
 
             
             <section data-markdown="slides/03_fight.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/04_html.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/04_images.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/05_css.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/05_inlining.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/06_js.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/06_js_3rdparty.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/07_fonts.md" data-separator="^---$" data-separator-vertical="^--$"></section>
-            <section data-markdown="slides/08_html.md" data-separator="^---$" data-separator-vertical="^--$"></section>
             <section data-markdown="slides/09_prefetch.md" data-separator="^---$" data-separator-vertical="^--$"></section>
-            <section data-markdown="slides/09_outro.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/11_monitoring.md" data-separator="^---$" data-separator-vertical="^--$"></section>
+            <section data-markdown="slides/10_outro.md" data-separator="^---$" data-separator-vertical="^--$"></section>
         </div>
     </div>
     <script src="revealjs/lib/js/head.min.js"></script>
@@ -48,6 +50,7 @@
     <script>
         Reveal.initialize({
             width: 1024,
+            controls: false,
             height: 768,
             // Factor of the display size that should remain empty around the content
             margin: 0.1,
@@ -72,17 +75,6 @@
                 //{ src: 'revealjs/plugin/math/math.js', async: true }
             ]
         });
-
-        Reveal.addEventListener('ready', fixScriptTagsInCode);
-        Reveal.addEventListener('slidechanged', fixScriptTagsInCode);
-        setTimeout(fixScriptTagsInCode, 2000);
-
-        function fixScriptTagsInCode(event) {
-            var spans = document.querySelectorAll('span.javascript');
-            for (var i = 0, l = spans.length; i < l; i++) {
-                spans[i].innerHTML = spans[i].innerHTML.replace(/\&lt;/g, '<').replace(/\&amp;lt;/g, '<');
-            }
-        }
     </script>
 </body>
 </html>
