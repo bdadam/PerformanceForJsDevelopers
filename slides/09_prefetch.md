@@ -3,38 +3,20 @@
 
 ## Fake it till you make it!
 
-
---
-
-# Script Loading
-
---
-
-<pre><code class="lang-html">&lt;script src="render-blocking.js">&lt;/script>
-&lt;script src="deferred-1.js" defer>&lt;/script>
-&lt;script src="deferred-2.js" defer>&lt;/script>
-&lt;script src="async.js" async>&lt;/script>
-</code></pre>
-
 --
 
 # Prefetch
 
 ```html
-<link rel="prefetch" href="/images/big.jpg">
-```
-
 IE9+, Firefox, Chrome, Safari, ...
-
---
-
-# DNS-Prefetch
-
-```HTML
-<link rel="dns-prefetch" href="http://www.example.com/">
-```
+<link rel="prefetch" href="/images/big.jpg">
 
 IE10+, Firefox, Chrome, Safari, ...
+<link rel="dns-prefetch" href="http://www.example.com/">
+
+// Chrome only
+<link rel="subresource" href="/my-javascript-file.js">
+```
 
 --
 
@@ -44,20 +26,9 @@ IE10+, Firefox, Chrome, Safari, ...
 <link rel="prerender" href="http://www.example.com/">
 ```
 
-IE11, Chrome
+Nur Chrome und IE11
 
 ~~Firefox, Safari~~
-
---
-
-# Subresource
-
-```html
-<link rel="subresource" href="/my-stylesheet-file.css">
-<link rel="subresource" href="/my-javascript-file.js">
-```
-
-Nur Chrome
 
 --
 

@@ -1,11 +1,7 @@
-<!-- .slide: data-background="images/6097066382_e4f07e8a75_o.jpg" -->
+<!-- .slide: data-background="assets/6097066382_e4f07e8a75_o.jpg" -->
 <div class="attribution">Photo: [flickr/teegardin](https://www.flickr.com/photos/teegardin/6097066382/)</div>
 
 # Performance budgets
-
---
-
-# Monitoring
 
 --
 
@@ -20,6 +16,13 @@
 --
 
 ### Webpagetest.org (grunt-perfbudget)
+
+--
+
+<!-- .slide: data-background="assets/2253850341_037eb53fd8_o.jpg" -->
+<div class="attribution">Photo: [flickr/wlodi](https://www.flickr.com/photos/wlodi/2253850341/)</div>
+
+# Monitoring
 
 --
 
