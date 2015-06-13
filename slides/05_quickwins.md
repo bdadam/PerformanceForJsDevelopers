@@ -1,5 +1,8 @@
 # Quickwins
 
+- gut automatisierbar
+- oder nur Konfigurationssache
+
 --
 
 # Keine HTTP-Redirects
@@ -46,3 +49,56 @@
 &#x3C;script src=&#x22;main.20150619.js&#x22;&#x3E;&#x3C;/script&#x3E;
 &#x3C;script src=&#x22;main.js?20150619&#x22;&#x3E;&#x3C;/script&#x3E;
 </code></pre>
+
+--
+
+# Bundling
+
+statt mehreren Skript-Blöcken:
+<pre><code class="lang-html">&#x3C;script src=&#x22;main.js?v145&#x22;&#x3E;&#x3C;/script&#x3E;
+&#x3C;script src=&#x22;home.js?v67&#x22;&#x3E;&#x3C;/script&#x3E;
+&#x3C;script src=&#x22;tracking.js?v41&#x22;&#x3E;&#x3C;/script&#x3E;
+</code></pre>
+
+nur einer:
+<pre><code class="lang-html">&#x3C;script src=&#x22;main.js?v234&#x22;&#x3E;&#x3C;/script&#x3E;</code></pre>
+
+--
+
+# Bundling - Tools
+
+- `cat main.js home.js tracking.js > all.js`
+- grunt-contrib-concat
+- ...
+
+--
+
+# Minifizieren
+
+```js
+(function() {
+    var myLongVariableName = 123;
+    var myEvenLongerVariableName = 256;
+
+    function add(a, b) {
+        return a + b;
+    }
+
+    var x = add(myLongVariableName, myEvenLongerVariableName);
+
+    alert(x);
+}());
+```
+
+```js
+!function(){function n(n,r){return n+r}var r=123,t=256,u=n(r,t);alert(u)}();
+```
+
+--
+
+# Minifizieren - Tools
+
+- UglifyJS
+- Google Clojure Compiler (braucht Java)
+- ...
+
