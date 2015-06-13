@@ -1,3 +1,23 @@
+<!-- .slide: data-background="assets/7515152254_020a9851b4_k.jpg" -->
+<div class="attribution">[flickr/lauralewis23](https://www.flickr.com/photos/lauralewis23/7515152254/)</div>
+
+## Fake it till you make it!
+
+
+--
+
+# Script Loading
+
+--
+
+<pre><code class="lang-html">&lt;script src="render-blocking.js">&lt;/script>
+&lt;script src="deferred-1.js" defer>&lt;/script>
+&lt;script src="deferred-2.js" defer>&lt;/script>
+&lt;script src="async.js" async>&lt;/script>
+</code></pre>
+
+--
+
 # Prefetch
 
 ```html
@@ -63,6 +83,10 @@ nextPageLink.addEventListener('mouseover', function() {
 });
 
 ```
+
+--
+
+# Perceived Performance
 
 --
 

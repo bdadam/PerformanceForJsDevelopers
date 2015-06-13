@@ -23,6 +23,8 @@ Note:
 
 1. Überblick
 1. Tools, not rules!
-1. JavaScript
-
-1. TODO
+1. Quickwins
+1. WebPack, VanillaJS, MicroJS
+1. 3rd Party Content
+1. Fake it till you make it!
+1. Monitoring
