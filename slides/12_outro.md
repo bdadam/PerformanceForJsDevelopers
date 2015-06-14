@@ -1,6 +1,12 @@
 <!-- .slide: data-background="assets/14480233596_1dc8ac6451_k.jpg" class="darkerbg" -->
 <div class="attribution">Bild: [flickr/jaguarcarsmena](https://www.flickr.com/photos/jaguarcarsmena/14480233596/)</div>
 
+<div style="font-size: .8em;">
+Adam Beres-Deak &nbsp;&nbsp;&middot;&nbsp;&nbsp; @bdadamm &nbsp;&nbsp;&middot;&nbsp;&nbsp; bdadam.com
+</div>
+
+***
+
 # Fazit
 
 <ul style="list-style-type: none;">
@@ -12,10 +18,6 @@
 
 ***
 
-Adam Beres-Deak &nbsp;&nbsp;&middot;&nbsp;&nbsp; @bdadamm &nbsp;&nbsp;&middot;&nbsp;&nbsp; bdadam.com
-
-***
-
-<div style="font-size: .65em;">
+<div style="font-size: .8em;">
 Slides: [j.mp/web-perf-enterjs](http://j.mp/web-perf-enterjs) &nbsp;&nbsp;&middot;&nbsp;&nbsp; Links: [j.mp/web-perf-resources](http://j.mp/web-perf-resources)
 </div>
