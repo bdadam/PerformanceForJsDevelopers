@@ -12,6 +12,11 @@
 
 --
 
+<img data-src="assets/todo-mvc-performance-summary.png">
+> <footer>[Filament Group](http://www.filamentgroup.com/lab/mv-initial-load-times.html)</footer>
+
+--
+
 <!-- .slide: data-background="assets/5225916680_6d2322ce44_o.jpg" -->
 <div class="attribution">[flickr/gogri](https://www.flickr.com/photos/gogri/5225916680/)</div>
 
