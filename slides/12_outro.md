@@ -13,3 +13,9 @@
 ***
 
 Adam Beres-Deak &nbsp;&nbsp;&middot;&nbsp;&nbsp; @bdadamm &nbsp;&nbsp;&middot;&nbsp;&nbsp; bdadam.com
+
+***
+
+<div style="font-size: .65em;">
+Slides: [j.mp/web-perf-enterjs](http://j.mp/web-perf-enterjs) &nbsp;&nbsp;&middot;&nbsp;&nbsp; Links: [j.mp/web-perf-resources](http://j.mp/web-perf-resources)
+</div>
