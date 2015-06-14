@@ -31,14 +31,14 @@ Nielsan hat die Studie zweimal durchgeführt, in 1997 und in 2010. Die Ergebniss
 
 ### Genervte User sind verlorene User
 <!-- .slide: data-background="assets/3645211083_4695ec1de4_o.jpg" -->
-<div class="attribution">Photo: [flickr/Robert Couse-Baker](https://www.flickr.com/photos/29233640@N07/3645211083/)</div>
+<div class="attribution">Bild: [flickr/Robert Couse-Baker](https://www.flickr.com/photos/29233640@N07/3645211083/)</div>
 
 --
 
 # Wegen dem Geld <!-- .element: class="dark-shadow" -->
 
 <!-- .slide: data-background="assets/7027584837_77ac774e41_k.jpg" -->
-<div class="attribution">Photo: [flickr/Tax Credits](https://www.flickr.com/photos/76657755@N04/7027584837/)</div>
+<div class="attribution">Bild: [flickr/Tax Credits](https://www.flickr.com/photos/76657755@N04/7027584837/)</div>
 
 --
 

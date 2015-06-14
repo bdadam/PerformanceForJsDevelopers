@@ -1,13 +1,13 @@
-<!-- .slide: data-background="assets/8165338356_ba4056817d_k.jpg" -->
-<div class="attribution">[flickr/swinney92](https://www.flickr.com/photos/swinney92/8165338356/)</div>
+<!-- .slide: data-background="assets/15243310666_1e4af80b9b_k.jpg" class="darkerbg" -->
+<div class="attribution">[flickr/xavier33300](https://www.flickr.com/photos/xavier33300/15243310666/)</div>
 
-# Von 0 auf 100 in einer Sekunde
+# Von 0 auf 100<br>in einer Sekunde
 
 ***
 
-Adam Beres-Deak
+Adam Beres-Deak (@bdadamm)
 
-[bdadam.com](http://bdadam.com) [@bdadamm](https://twitter.com/bdadamm/)
+bdadam.com 
 
 
 Note:

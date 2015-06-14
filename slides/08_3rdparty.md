@@ -6,7 +6,7 @@
 # Cookie Monsters
 
 <!-- .slide: data-background="assets/4592911516_4d8e73977c_o.jpg" -->
-<div class="attribution">Photo: [flickr/x1brett](https://www.flickr.com/photos/x1brett/4592911516/)</div>
+<div class="attribution">Bild: [flickr/x1brett](https://www.flickr.com/photos/x1brett/4592911516/)</div>
 
 Note:
 - 3rd party = cookie monster -> die setzen Cookies ohne Ende
