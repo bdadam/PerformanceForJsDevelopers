@@ -17,13 +17,21 @@
 
 --
 
+<!-- .slide: data-background="assets/14673139924_6dde83163a_k.jpg" -->
+<div class="attribution">[flickr/Gareth Halfacree](https://www.flickr.com/photos/120586634@N05/14673139924/)</div>
+
+# Plug and Play
+
+Note:
+No "reinvent-the-wheel"
+
+--
+
 <!-- .slide: data-background="assets/5225916680_6d2322ce44_o.jpg" -->
 <div class="attribution">[flickr/gogri](https://www.flickr.com/photos/gogri/5225916680/)</div>
 
 # Micro Libs
 
 - Mini Librarys zum Selbstpflücken
-- npm, microjs.com
-
-Note:
-No "reinvent-the-wheel"
+- microjs.com
+- npm, bower 
