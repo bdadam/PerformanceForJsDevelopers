@@ -5,10 +5,7 @@
 
 ***
 
-Adam Beres-Deak (@bdadamm)
-
-bdadam.com 
-
+Adam Beres-Deak &nbsp;&nbsp;&middot;&nbsp;&nbsp; @bdadamm &nbsp;&nbsp;&middot;&nbsp;&nbsp; bdadam.com
 
 Note:
 - Wer minifiziert CSS und JS?
