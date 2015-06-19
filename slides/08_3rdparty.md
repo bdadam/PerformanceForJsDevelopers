@@ -72,6 +72,8 @@ Note:
 ## Google Analytics Measurement Protocol
 
 ```JS
+// location.href === 'https://example.com/pageA'
+
 new Image().src = '//www.google-analytics.com/collect?' +
 'v=1&tid=UA-123456-1' + // tracker id
 '&t=pageview' + // hit type

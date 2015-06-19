@@ -88,11 +88,12 @@ Note:
 --
 
 ```js
-describe('Array', function(){
-    describe('#indexOf()', function(){
-        it('should return -1 when the value is not present', function(){
-            [1,2,3].indexOf(5).should.equal(-1);
-            [1,2,3].indexOf(0).should.equal(-1);
+var add = require(../src/math/add);
+
+describe('Math Module', function(){
+    describe('#add()', function(){
+        it('should return 8 when adding 3 and 5', function(){
+            expect(add(5, 3)).to.equal(8);
         });
     });
 });

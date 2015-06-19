@@ -77,6 +77,9 @@ nur einer:
 
 --
 
+<!-- .slide: data-background="assets/09.jpg" -->
+<div class="attribution">Bild: [flickr/96828128@N02](https://www.flickr.com/photos/96828128@N02/14448381336/)</div>
+
 # Minifizieren
 
 ```js
@@ -102,6 +105,8 @@ nur einer:
 
 # Minifizieren - Tools
 
+- JSMin
 - UglifyJS
-- Google Clojure Compiler (braucht Java)
+- Google Clojure Compiler
+- grunt-contrib-uglify
 - ...

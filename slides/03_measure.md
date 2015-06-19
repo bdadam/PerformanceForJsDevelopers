@@ -2,6 +2,9 @@
 
 --
 
+<!-- .slide: data-background="assets/06.jpg" -->
+<div class="attribution">Bild: [flickr/wwarby](https://www.flickr.com/photos/wwarby/3296379139/)</div>
+
 # Performance messen
 
 --
@@ -37,3 +40,9 @@
 --
 
 <img data-src="assets/what-does-my-site-cost.png">
+
+--
+
+## Performance.timing
+
+<img data-src="assets/perftiming.png">
