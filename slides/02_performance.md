@@ -60,7 +60,8 @@ Nielsan hat die Studie zweimal durchgeführt, in 1997 und in 2010. Die Ergebniss
 # Bandbreite<br>vs.<br>Latenz
 
 Note:
-man würde denken, dass eine fette Internetleitung alles löst, aber das ist eben nicht der Fall
+- man würde denken, dass eine fette Internetleitung alles löst, aber das ist eben nicht der Fall
+- know your enemy
 
 --
 

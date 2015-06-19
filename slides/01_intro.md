@@ -7,6 +7,8 @@
 
 Adam Beres-Deak &nbsp;&nbsp;&middot;&nbsp;&nbsp; @bdadamm &nbsp;&nbsp;&middot;&nbsp;&nbsp; bdadam.com
 
+<img data-src="assets/as24logo.png" style="max-height: 48px;">
+
 Note:
 - Wer minifiziert CSS und JS?
 - Gzipping?

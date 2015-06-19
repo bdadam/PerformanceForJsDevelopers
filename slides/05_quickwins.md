@@ -50,6 +50,10 @@
 &#x3C;script src=&#x22;main.js?20150619&#x22;&#x3E;&#x3C;/script&#x3E;
 </code></pre>
 
+```
+Cache-Control: max-age=(time in seconds)
+```
+
 --
 
 # Bundling
