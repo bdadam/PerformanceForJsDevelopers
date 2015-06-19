@@ -28,30 +28,6 @@ Was sind die?
 
 # Separation of Concerns
 
---
-
-### Core Content (sofort)
-
-- HTML (navigierbar, bedienbar)
-- CSS
-- Ein Bild (wenn Teil des Contents)
-
---
-
-### Enhancements (DOM-ready)
-
-- JavaScript
-- Webfonts
-- Zusätzliche Bilder
-
---
-
-### Leftovers (onload)
-
-- Tracking
-- Remarketing
-- Werbung
-
 Note:
 - SmashingMagazin hat keinen Nachteil bei async Ads gesehen
 

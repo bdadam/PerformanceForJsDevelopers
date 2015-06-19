@@ -19,6 +19,7 @@
 
 --
 
+## Kein Domain Sharding
 <img data-src="assets/domain-shards.png">
 
 > <footer>[Why Domain Sharding is Bad News for Mobile Performance and Users](http://www.mobify.com/blog/domain-sharding-bad-news-mobile-performance/)</footer>
@@ -45,14 +46,14 @@
 - Beim zweiten Besuch muss der Browser viel weniger Daten runterladen
 - Bei Änderungen URL auch ändern (Cachebusting)
 
+```
+Cache-Control: max-age=(time in seconds)
+```
+
 <pre><code class="lang-html">&#x3C;script src=&#x22;main.js&#x22;&#x3E;&#x3C;/script&#x3E;
 &#x3C;script src=&#x22;main.20150619.js&#x22;&#x3E;&#x3C;/script&#x3E;
 &#x3C;script src=&#x22;main.js?20150619&#x22;&#x3E;&#x3C;/script&#x3E;
 </code></pre>
-
-```
-Cache-Control: max-age=(time in seconds)
-```
 
 --
 
@@ -79,6 +80,10 @@ nur einer:
 
 <!-- .slide: data-background="assets/09.jpg" -->
 <div class="attribution">Bild: [flickr/96828128@N02](https://www.flickr.com/photos/96828128@N02/14448381336/)</div>
+
+# Minifizieren
+
+--
 
 # Minifizieren
 

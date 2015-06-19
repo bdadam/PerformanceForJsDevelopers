@@ -98,13 +98,13 @@ Auf Mobile kann es noch schlimmer sein, 150-400ms
 
 --
 
-<img src="assets/httparchive.org-2015-05-15/js-req-per-page.png">
+<img data-src="assets/httparchive.org-2015-05-15/js-req-per-page.png">
 
 > 68% der untersuchten Webseiten starten mehr als 10 JavaScript-Requests <footer>[httparchive.org 15. Mai 2015](http://httparchive.org/interesting.php?a=All&l=May%2015%202015&s=Top1000)</footer>
 
 --
 
-<img src="assets/httparchive.org-2015-05-15/js-transfer-size.png">
+<img data-src="assets/httparchive.org-2015-05-15/js-transfer-size.png">
 
 > 66% der untersuchten Webseiten laden mehr als 300KB JavaScript <footer>[httparchive.org 15. Mai 2015](http://httparchive.org/interesting.php?a=All&l=May%2015%202015&s=Top1000)</footer>
 

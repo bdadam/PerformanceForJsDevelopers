@@ -1,6 +1,6 @@
 ### HTML
 
-<img src="assets/346483297_c4cb93ab4e_o.jpg">
+<img data-src="assets/346483297_c4cb93ab4e_o.jpg">
 <div class="attribution">[flickr/jesper](https://www.flickr.com/photos/jesper/346483297/)</div>
 
 --

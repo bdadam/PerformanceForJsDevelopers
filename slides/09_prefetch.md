@@ -5,7 +5,18 @@
 
 --
 
-# Prefetch
+# Perceived Performance
+
+--
+
+# Prefetching
+
+<!-- .slide: data-background="assets/fetch.jpg" -->
+<div class="attribution">Bild: [flickr/mshipp](https://www.flickr.com/photos/mshipp/14256166416)</div>
+
+--
+
+# Prefetching
 
 ```html
 IE9+, Firefox, Chrome, Safari, ...
@@ -54,10 +65,6 @@ nextPageLink.addEventListener('mouseover', function() {
 });
 
 ```
-
---
-
-# Perceived Performance
 
 --
 

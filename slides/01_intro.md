@@ -17,6 +17,12 @@ Note:
 
 --
 
+m.autoscout24.de
+
+<img data-src="assets/m.as24.png">
+
+--
+
 <!-- .slide: data-background="assets/4595040044_c2034753ba_o.jpg" class="darkerbg" -->
 <div class="attribution">[flickr/maticevic](https://www.flickr.com/photos/maticevic/4595040044/)</div>
 

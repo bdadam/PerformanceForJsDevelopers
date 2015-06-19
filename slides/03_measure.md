@@ -46,3 +46,15 @@
 ## Performance.timing
 
 <img data-src="assets/perftiming.png">
+
+--
+
+<!-- .slide: data-background="assets/6097066382_e4f07e8a75_o.jpg" -->
+<div class="attribution">Bild: [flickr/teegardin](https://www.flickr.com/photos/teegardin/6097066382/)</div>
+
+# Performance budgets
+
+--
+
+<img data-src="assets/GPSI_goal.jpg" style="float: left; max-width: 50%;">
+<img data-src="assets/wpt_goal.jpg" style="float: right; max-width: 50%;">
